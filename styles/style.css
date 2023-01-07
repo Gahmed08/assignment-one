@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* Header Section */
+
+.header{
+    background-image: url(../banner/banner3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: border-box;
+    
+}
+.header-div{
+    text-align: right;
+    padding-right: 230px;
+}
+.header-title{
+    padding-top: 216px;
+    text-align: right;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    padding-left: 845px;
+}
+.header-para{
+    padding-left: 876px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 32px;
+    text-align: right;
+    color: #FFFFFF;
+}
+.btn-header{
+    margin-bottom: 166px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    height: 64px;
+    width: 160px;
+}
+/* second section */
+.previous-year-main{
+    display: flex;
+    justify-content: space-around;
+}
+.previous-year-img{
+    margin-left: 206px;
+    margin-top: 131px;
+}
+.previous-year-title{
+    margin-top: 370px;
+    font-weight: 700;
+    font-size: 40px;
+    margin-left: 85px;
+    margin-right: 400px;
+    color: #151414;
+    
+}
+
+.previous-year-para{
+    margin-top: 24px;
+    margin-left: 87px;
+    margin-right: 322px;
+    color: #444343;
+
+}
+
+.check-list{
+    margin-top: 16px;
+    margin-right: 100px;
+    margin-left: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    list-style: none;
+    
+}
+.check:before{
+    content: '\2713';
+    color: #16D887;
+    
+}
+/* My Plans */
+.plans{
+    max-width: 1140px;
+    text-align: center;
+    margin: 0 auto;
+}
+.plan-title{
+    margin-top: 130px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+.plan-list{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.plan-name{
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+.plan-target{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    margin-top: 16px;
+}
+/* Positive Mindset */
+.mindset{
+    max-width: 1140px;
+    margin: 130px 230px;
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    padding-left: 64px;
+    
+}
+.mindset-title{
+    padding-top: 59px;
+    padding-right: 617px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #F8F8F8;
+}
+.btn-call{
+    margin-top: 24px;
+    margin-bottom: 59px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    height: 64px;
+    width: 160px;
+}
+.footer{
+    height: 577px;
+    background-color: #151414;
+    color: #F8F8F8;
+
+}
+.footer-div{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 230px;
+}
+.future-title{
+    color: #F8F8F8;
+    padding-top: 130px;
+    font-weight: 700;
+    font-size: 45px;
+}
+.future-para{
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.email{
+    margin-top: 24px;
+    
+}
+.phone{
+    margin-top: 16px;
+}
+.icon{
+    margin-top: 32px;
+    display: flex;
+}
+.footer-logo{
+    margin-right: 16px;
+}
+.subscribe{
+    margin-left: 331px;
+    margin-top: 130px;
+    margin-right: 229px;
+}
+.sub-title{
+    margin-bottom: 31px;
+    font-weight: 600;
+    font-size: 25px;
+}
+.sub-email{
+    height: 64px;
+    width: 325px;
+    background-color: #151414;
+    color: #F8F8F8;
+    border-radius: 5px;
+    border-color: #FFFFFF;
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 18px;
+}
+.btn-sub{
+    margin-top: 16px;
+    padding: 20px 36px;
+    margin-bottom: 166px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF ;
+    background-color:  #005FAC;
+    border-radius: 5px;
+    height: 64px;
+    width: 170px;
+}
