@@ -114,7 +114,6 @@
 }
 /* Positive Mindset */
 .mindset{
-    max-width: 1140px;
     margin: 130px 230px;
     background-image: linear-gradient(to right, #005FAC 0%, rgba(0, 95, 172, 0) 90%), url(../images/watch.png);
     background-repeat: no-repeat;
@@ -174,12 +173,15 @@
     margin-top: 32px;
     display: flex;
 }
+.footer{
+    margin-top: 130px;
+}
 .footer-logo{
     margin-right: 16px;
 }
 .subscribe{
     margin-left: 331px;
-    margin-top: 130px;
+    margin-top: 230px;
     margin-right: 229px;
 }
 .sub-title{
@@ -206,8 +208,49 @@
     font-weight: 600;
     font-size: 20px;
     color: #FFFFFF ;
-    background-color:  #005FAC;
+    background-color:  #91c5ef;
     border-radius: 5px;
     height: 64px;
     width: 170px;
+}
+/* new section added */
+.about{
+    background: #99cff6;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    max-width: 1240px;
+
+}
+.section-title{
+    padding-top: 50px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;    
+}
+.section-description{
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.about-info-container{
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;
+    padding-bottom: 50px;
+
+}
+.about .info-title{
+    color: #757575;
+}
+.info-description{
+    color: #474747;
+    
+}
+.about-icon{
+    height: 50px;
 }
